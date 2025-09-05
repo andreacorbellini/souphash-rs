@@ -1,0 +1,21 @@
+[package]
+name = "souphash"
+version = "0.1.0"
+authors = ["Andrea Corbellini <corbellini.andrea@gmail.com>"]
+edition = "2024"
+license = "Unlicense"
+
+description = "SoupHash: an order-indipendent hash function, based on SipHash"
+repository = "https://github.com/andreacorbellini/souphash-rs"
+keywords = ["hash", "hashing", "souphash"]
+categories = ["algorithms", "no-std"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.7.0"
+rayon = "1.11.0"
+
+[[bench]]
+name = "hash"
+harness = false
