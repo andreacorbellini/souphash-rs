@@ -14,4 +14,5 @@ hosts the [Rust] implementation of SoupHash. Check the [crate documentation] to
 learn more!
 
 [SipHash]: https://en.wikipedia.org/wiki/SipHash
-[documentation]: https://docs.rs/souphash/latest/souphash/
+[Rust]: https://www.rust-lang.org/
+[crate documentation]: https://docs.rs/souphash/latest/souphash/
